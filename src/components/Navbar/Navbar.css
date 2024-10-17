@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btn-outline-danger {
+    border: none;
+    color: #dc3545;
+    font-size: 1rem;
+}

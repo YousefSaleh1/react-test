@@ -1,0 +1,36 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form-input,
+.form-textarea,
+.form-select,
+.form-date,
+.form-button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    resize: vertical;
+}
+
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+
+.form-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

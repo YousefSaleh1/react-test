@@ -1,0 +1,108 @@
+.task-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.task-table th, .task-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination-button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.pagination-button:hover {
+    background-color: #0056b3; 
+}
+
+.pagination-button.active {
+    background-color: #0056b3;
+}
+
+.filter-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.filter-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filter-select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.filter-select:focus {
+    border-color: #007bff;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn {
+    background-color: #17a2b8; 
+}
+
+.view-btn:hover {
+    background-color: #138496;
+}
+
+.edit-btn {
+    background-color: #28a745; 
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+td .btn {
+    margin-right: 8px;
+}
+
